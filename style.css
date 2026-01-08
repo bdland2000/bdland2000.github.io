@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #111;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero span {
+    color: #00e6e6;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #00e6e6;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.gray {
+    background: #f4f4f4;
+}
+
+.skills span {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #222;
+    color: white;
+    border-radius: 5px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    padding: 30px;
+    background: #222;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
